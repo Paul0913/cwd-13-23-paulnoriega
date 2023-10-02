@@ -1,0 +1,2088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awsome Link-->
+    <script src="https://kit.fontawesome.com/be92668ae9.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="collection.html">
+
+    <title>Galeria</title>
+
+</head>
+<body class="indigo lighten-4">
+    <!--Fixed Navbar-->
+    <div class="navbar-fixed">
+        <nav class="blue-grey lighten-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="" class="brand-logo brown-text">Galeria</a> 
+                    <a href="" class="sidenav-trigger" data-target='mobile-demo'>
+                        <i class="fa-solid fa-bars"></i>
+                    </a>                   
+                    <ul class="tabs tabs-transparent hide-on-med-and-down">
+                        <li class="tab">
+                            <a href="#home" class="active brown-text lighten-1">Home</a>                           
+                        </li>
+                        <li class="tab">
+                            <a href="#collection" class="brown-text lighten-1">Collection</a>                           
+                        </li>
+                        <li class="tab">
+                            <a href="#cart" class="brown-text lighten-1">
+                                <i class="brown-text lighten-1 material-icons left">shopping_cart</i>
+                                Cart
+                            </a>                           
+                        </li>   
+                        <li class="tab">
+                            <a href="#login" class="brown-text lighten-1">Log In</a>
+                        </li>
+                        <li class="tab">
+                            <a href="#signup" class="brown-text lighten-1">Sign Up</a>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+    </div>
+
+    <!--Sidenav-->
+    <div class="tab">
+        <ul class="sidenav" id="mobile-demo">
+            <a href="" class="brand-logo brown-text" style="font-size: 50px;">Galeria</a> 
+            <div class="divider"></div>
+            <li>
+                <a href="#home" target="_blank">Home</a>
+            </li>
+            <li> 
+                <a href="#collection" target="_blank">Collection</a>
+            </li>
+            <li>
+                <a href="#cart" target="_blank">Cart</a>
+            </li>
+            <li>
+                <a href="#login" target="_blank">Log In</a>
+            </li>
+            <li>
+                <a href="#signup" target="_blank">Sign Up</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="divider"></div>
+
+    <!--Tabs Structure-->
+    <div class="row">
+        <!-- Home tabs -->
+        <div class="col s12" id="home">
+            <div class="container2"><!--Start of container2-->
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img src="Images/img1.jpg" alt="">
+                            <div class="caption right-align">
+                                <div class="col s6 offset-s8">
+                                    <h3>TO CREATE A WORK OF ART IS TO CREATE THE WORLD.</h3>
+                                <h5 class="light black-text text-lighten-3">-KANDINSKY</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/img2.jpg" alt="">
+                            <div class="caption center-align">
+                                <h3>IT'S NOT WHAT YOU LOOK AT THAT MATTERS, IT'S WHAT YOU SEE.</h3>
+                                <h5 class="light black-text text-lighten-3">HENRY DAVID THOREAU</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/img3.jpg" alt="">
+                            <div class="caption">
+                                <div class="col s6">
+                                    <h3>WE DON'T MAKE MISTAKES, JUST HAPPY LITTLE ACCIDENTS</h3>
+                                <h5 class="light black-text text-lighten-3">BOB ROSS</h5>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--End of container2--> <br>
+
+            <div class="divider black"></div>
+
+            <!--Recent Collection-->
+            <div class="container"> <br> <!--Container Start-->
+                <h3>Recent Collection</h3>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="col s12 m6 "> <!--Picture 1-->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/blue-moon_u-l-q1hmwab0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" class="modal-trigger" href="#modal1">
+                                <a href="" class="btn-floating btn-large halfway-fab waves-effect waves-light white"><i class="fa-regular fa-heart black"></i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Blue Moon<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Leonid Afremov</p>
+                            </div>
+                            <div id="modal1" class="modal modal-fixed-footer">
+                            <div class="modal-content grey lighten-3">
+                                <div class="container center-align">
+                                    <img src="https://imgc.artprintimages.com/img/print/blue-moon_u-l-q1hmwab0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" height="250px">
+                                </div>
+                                    <h4 class="center-align">Blue Moon</h4>
+                                    <p class="subtitles">by Leonid Afremov</p>
+                                    <p><p class="subtitles">Scenic Art</p><br>
+                                    Why settle for blank walls, when you can transform them into stunning vista points. Explore from imaginative scenic abstracts to sublime beach landscapes captured on camera. The possibilities are endless. The painterly quality of our canvas creates an almost life-like panorama, so you can enjoy your favorite scenery without leaving home. <br><br>
+
+                                    Vincent Van Gogh’s Starry Night is one of the most renowned scenic masterpieces. Other famous landscape artists and photographers include Georgia O'Keeffe, Ansel Adams, and Claude Monet.</p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 30" x 40"</p><br><br>
+                            </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+
+                    <div class="col s12 m6 "> <!--Picture 2-->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/garden-in-bloom-arles-c-1888_u-l-o532f0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" class="modal-trigger" href="#modal2">
+                                <a href="" class="btn-floating btn-large halfway-fab waves-effect waves-light white"><i class="fa-regular fa-heart black"></i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Garden in Bloom Arles, c.1888<a href="" class="right">₱16,000.00</a></span>
+                                <p>by Vincent van Gogh</p>
+                            </div>
+                            <div id="modal2" class="modal modal-fixed-footer">
+                            <div class="modal-content grey lighten-3">
+                                <div class="container center-align">
+                                    <img src="https://imgc.artprintimages.com/img/print/garden-in-bloom-arles-c-1888_u-l-o532f0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" height="250px">
+                                </div>
+                                    <h4 class="center-align">Garden in Bloom Arles, c.1888</h4>
+                                    <p class="subtitles">by Vincent van Gogh</p>
+                                    <p><p class="subtitles">Abstract Art</p><br>
+                                    Curious to try something new? Why not learn the language of colors? Our collection of abstract art will introduce you to intriguing concepts and emotions evoked by brushstrokes, shapes, and composition of art. A genre of modernism, abstract art, was founded by Wassily Kadinsky. It represents objects and ideas in an interpretive way. <br><br>
+
+                                    Other famous abstract artists include Piet Mondrian, Joan Miro, and Jackson Pollock. See their work come alive with the painterly quality of our museum-grade canvas.</p><br><br>
+                                    <p class="subtitles">Scenic Art</p><br>
+                                    <p>Why settle for blank walls, when you can transform them into stunning vista points. Explore from imaginative scenic abstracts to sublime beach landscapes captured on camera. The possibilities are endless. The painterly quality of our canvas creates an almost life-like panorama, so you can enjoy your favorite scenery without leaving home. <br><br>
+
+                                    Vincent Van Gogh’s Starry Night is one of the most renowned scenic masterpieces. Other famous landscape artists and photographers include Georgia O'Keeffe, Ansel Adams, and Claude Monet.</p><br><br>
+                                    <div class="divider"></div>
+                                        <p class="subtitles">The Print</p><br>
+                                        <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 30" x 40"</p><br><br>
+                            </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱16,000.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s12 m6 "> <!--Picture 3-->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/spring-showers-2_u-l-pgodq50.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" class="modal-trigger" href="#modal3">
+                                <a href="" class="btn-floating btn-large halfway-fab waves-effect waves-light whote"><i class="fa-regular fa-heart black"></i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Spring Showers 2<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Marc Taylor</p>
+                            </div>
+                            <div id="modal3" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/spring-showers-2_u-l-pgodq50.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Spring Showers 2</h4>
+                                    <p class="subtitles">by Marc Taylor</p>
+                                    <p><p><p class="subtitles">Seasonal Art</p><br>
+                                        Would you rather see fall colors all year long or spring landscapes? No matter what season you prefer, make it everlasting with our seasons’ art collection. Explore from winter scenery to summery fruits and so much more! This collection will make you and your loved ones smile! <br><br>
+                                        
+                                        Make your favorite season art more vivid with our professionally hand-stretched canvas! Hyunah Kim, Vincent Van Gogh, Duy Hunh, Agnes Cecile have created some of our best-selling seasons art. <br><br>
+                                        <p><p class="subtitles">Figurative Art</p><br>
+                                        Think reality delights? You bet your walls do too. So, why not introduce them to our collection of figurative art. Make acquaintance with inspiring muses of famous masters or get a glimpse of pop culture icons caught on camera. Any masterpieces you choose will give your space a unique story to share in our handcrafted frames. <br><br>
+                                        
+                                        This genre of art involves a realistic depiction of living as well as inanimate objects. Artists like Jean Michel Basquiat, Norman Rockwell, and Banksy are renowned for giving a platform to cultural commentary and human experiences through their art.</p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s12 m6 "> <!--Picture 4-->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/sunset-in-venice_u-l-q11trfc0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" class="modal-trigger" href="#modal4">
+                                <a href="" class="btn-floating btn-large halfway-fab waves-effect waves-light white"><i class="fa-regular fa-heart black"></i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Sunset in Venice<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Dominic Davison</p>
+                            </div>
+                            <div id="modal4" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sunset-in-venice_u-l-q11trfc0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Sunset in Venice</h4>
+                                    <p class="subtitles">by Dominic Davison</p>
+                                    <p><p class="subtitles">Scenic Art</p><br>
+                                        Why settle for blank walls, when you can transform them into stunning vista points. Explore from imaginative scenic abstracts to sublime beach landscapes captured on camera. The possibilities are endless. The painterly quality of our canvas creates an almost life-like panorama, so you can enjoy your favorite scenery without leaving home. <br><br>
+
+                                        Vincent Van Gogh’s Starry Night is one of the most renowned scenic masterpieces. Other famous landscape artists and photographers include Georgia O'Keeffe, Ansel Adams, and Claude Monet. <br><br>
+                                        <p class="subtitles">Travel Art</p>
+                                        Art is the best way of seeing the world when travel isn’t possible. Explore our curation of travel art for a trip around the globe. See from tourist favorites landmarks–the Eiffel tower– to hidden gems like the breathtaking landscapes of Yosemite National Park. <br><br>
+                                        
+                                        Whether you find a cozy reminder of home, your dream destinations, or even cool maps of the world, our handcrafted frames will give it the perfect finishing touch.</p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                </div>
+            </div><!-- Container End -->
+
+            <div class="divider black"></div>
+
+            <!-- Featured Collection -->
+            <div class="container"><!--Start of Container-->
+                <div class="row"> <!--Featured First Row-->
+                    <h3 class="center">Featured Collection</h3>
+                    <div class="col s6 m3 l4"> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Sail Away</h4>
+                                    <a href="" class="btn-floating btn-large halfway-fab waves-effect waves-light white"><i class="fa-regular fa-heart black"></i></a>
+                                    <p class="subtitles">by Liz Jardine</p>
+                                    <p><p class="subtitles">Abstract Art</p><br>
+                                        Curious to try something new? Why not learn the language of colors? Our collection of abstract art will introduce you to intriguing concepts and emotions evoked by brushstrokes, shapes, and composition of art. A genre of modernism, abstract art, was founded by Wassily Kadinsky. It represents objects and ideas in an interpretive way. <br><br>
+
+                                        Other famous abstract artists include Piet Mondrian, Joan Miro, and Jackson Pollock. See their work come alive with the painterly quality of our museum-grade canvas.<br><br>
+                                        <p class="subtitles">Scenic Art</p>
+                                        Why settle for blank walls, when you can transform them into stunning vista points. Explore from imaginative scenic abstracts to sublime beach landscapes captured on camera. The possibilities are endless. The painterly quality of our canvas creates an almost life-like panorama, so you can enjoy your favorite scenery without leaving home. <br><br>
+
+                                        Vincent Van Gogh’s Starry Night is one of the most renowned scenic masterpieces. Other famous landscape artists and photographers include Georgia O'Keeffe, Ansel Adams, and Claude Monet.
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱6,00.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 l4"> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Cliffs by the Sea at Trouville</h4>
+                                    <a href="" class="btn-floating btn-large halfway-fab waves-effect waves-light white"><i class="fa-regular fa-heart black"></i></a>
+                                    <p class="subtitles">by Gustave Caillebotte</p>
+                                    <p><p class="subtitles">Scenic Art</p><br>
+                                    Why settle for blank walls, when you can transform them into stunning vista points. Explore from imaginative scenic abstracts to sublime beach landscapes captured on camera. The possibilities are endless. The painterly quality of our canvas creates an almost life-like panorama, so you can enjoy your favorite scenery without leaving home. <br><br>
+
+                                    Vincent Van Gogh’s Starry Night is one of the most renowned scenic masterpieces. Other famous landscape artists and photographers include Georgia O'Keeffe, Ansel Adams, and Claude Monet.<br><br>
+                                    </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱7,000.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 l4"> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Bittersweet</h4>
+                                    
+                                    <p class="subtitles">by Ursula Abresch</p>
+                                    <a href="" class="btn-floating btn-large halfway-fab waves-effect waves-light white"><i class="fa-regular fa-heart black"></i></a>
+                                    <p><p class="subtitles">Scenic Art</p><br>
+                                    Why settle for blank walls, when you can transform them into stunning vista points. Explore from imaginative scenic abstracts to sublime beach landscapes captured on camera. The possibilities are endless. The painterly quality of our canvas creates an almost life-like panorama, so you can enjoy your favorite scenery without leaving home. <br><br>
+
+                                    Vincent Van Gogh’s Starry Night is one of the most renowned scenic masterpieces. Other famous landscape artists and photographers include Georgia O'Keeffe, Ansel Adams, and Claude Monet.
+                                        <br><br>
+                                        <p class="subtitles">Botanical Art</p>
+                                        Craving Daffodils in the fall, or Snowdrops in the spring? We got you. Grow a fantastical garden of your favorite blooms all year long with our gorgeous botanical art. From sublime collages to vintage illustration, our collection of botanicals become wall-ready in our handcrafted frames. <br><br>
+
+                                        Before photography became a thing, illustrations of plants, flowers were the only way of recording, identifying the various kinds of plant species in the world. Pierre-Joseph Redouté, Maria Sibylla Merian, Annie Pratt are some of the most prolific botanical artists of the past.
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 12" x 9"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱7,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 l4"> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="https://imgc.artprintimages.com/img/print/landscape-with-house-and-ploughman-1889_u-l-pcezig0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat4">Landscape with House and Ploughman, 1889<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Vincent van Gogh</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/landscape-with-house-and-ploughman-1889_u-l-pcezig0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Landscape with House and Ploughman, 1889</h4>
+                                    <p class="subtitles">by Vincent van Gogh</p>
+                                    <p><p class="subtitles">Scenic Art</p><br>
+                                    Why settle for blank walls, when you can transform them into stunning vista points. Explore from imaginative scenic abstracts to sublime beach landscapes captured on camera. The possibilities are endless. The painterly quality of our canvas creates an almost life-like panorama, so you can enjoy your favorite scenery without leaving home. <br><br>
+
+                                    Vincent Van Gogh’s Starry Night is one of the most renowned scenic masterpieces. Other famous landscape artists and photographers include Georgia O'Keeffe, Ansel Adams, and Claude Monet.
+                                        <br><br>
+                                        <p class="subtitles">Seasonal Art</p>
+                                        Would you rather see fall colors all year long or spring landscapes? No matter what season you prefer, make it everlasting with our seasons’ art collection. Explore from winter scenery to summery fruits and so much more! This collection will make you and your loved ones smile! <br><br>
+
+                                        Make your favorite season art more vivid with our professionally hand-stretched canvas! Hyunah Kim, Vincent Van Gogh, Duy Hunh, Agnes Cecile have created some of our best-selling seasons art
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+
+                    <div class="col s6 m3 l4"> <!--Picture 5-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature5">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature5" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Black Line Poppies</h4>
+                                    <p class="subtitles">by Shirley Novak</p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 5 -->
+                    
+                    <div class="col s6 m3 l4"> <!--Picture 6-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sunset-1913_u-l-q1hn9pa0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature6">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat6">Sunset<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Félix Vallotton</p>
+                            </div>
+                            <div id="feature6" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sunset-1913_u-l-q1hn9pa0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Sunset</h4>
+                                    <p class="subtitles">by Félix Vallotton</p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 6 -->
+                </div> <!--End of Feature Row 1-->             
+            </div><!--End of Container-->
+            
+            <div class="divider black"></div>
+
+            <!-- Other Collection -->
+            <div class="container">
+                <div class="row"> <!--Other First Row-->
+                    <h3 class="center">Other Collection</h3>
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                </div> <!--End of Other Row 1-->
+
+                <div class="row"> <!-- Other 2nd Row-->
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align">Black Line Poppies</h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                </div> <!--End of Other row 2-->     
+            </div>
+        </div>
+
+        <!--Collection Tab-->
+        <div class="col s12" id="collection">
+            <div class="navbar-extended">
+                <nav class="blue-grey darken-10">
+                        <div class="navbar-content">
+                            <a href="" class="brand-logo">Collections</a>
+                            <ul class="tabs2 tabs-transparent">
+                                <li class="tab">
+                                    <a href="#recenttab">Recent Collection</a>
+                                </li>
+                                <li  class="tab">
+                                    <a href="#featuretab">Featured Collections</a>
+                                </li>
+                                <li  class="tab">
+                                    <a href="#painting">Paintings</a>
+                                </li>
+                                <li  class="tab">
+                                    <a href="#photography">Photography</a>
+                                </li>
+                                <li  class="tab">
+                                    <a href="#sculpture">Sculpture</a>
+                                </li>
+                                <li  class="tab">
+                                    <a href="#drawing">Drawings</a>
+                                </li>
+                            </ul>                
+                        </div>
+                </nav>
+            </div>
+            <!--Tabs Structure-->
+            <div class="container">
+                <div class="row"> <!--Recent First Row-->
+                    <div class="col s12" id="recenttab">
+                        <h3 class="center">Recent Collection</h3>
+                        <div class="divider grey"></div> <br>
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                    </div>
+                    <div class="col s12" id="featuretab">
+                        <h3 class="center">Feature Collection</h3>
+                        <div class="divider grey"></div> <br>
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                    </div>
+                    <div class="col s12" id="painting">
+                        <h3 class="center">Painting</h3>
+                        <div class="divider grey"></div> <br>
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                    </div>
+                    <div class="col s12" id="photography">
+                        <h3 class="center">Photography</h3>
+                        <div class="divider grey"></div> <br>
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                    </div>
+                    <div class="col s12" id="sculpture">
+                        <h3 class="center">Sculpture</h3>
+                        <div class="divider grey"></div> <br>
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                    </div>
+                    <div class="col s12" id="drawing">
+                        <h3 class="center">Drawing</h3>
+                        <div class="divider grey"></div> <br>
+                    <div class="col s6 m3 "> <!--Picture 1-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat1">Sail Away<a href="" class="right">₱6,000.00</a></span>
+                                <p>by Liz Jardine</p>
+                            </div>
+                            <div id="feature1" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/sail-away_u-l-pz8zry0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 1 -->
+                    
+                    <div class="col s6 m3 "> <!--Picture 2-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat2">Cliffs by the Sea at Trouville<a href="" class="right">₱7,000.00</a></span>
+                                <p>by Gustave Caillebotte</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/cliffs-by-the-sea-at-trouville_u-l-ooy6e0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 2 -->
+
+                    <div class="col s6 m3 "> <!--Picture 3-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat3">Bittersweet<a href="" class="right">₱7,400.00</a></span>
+                                <p>by Ursula Abresch</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/bittersweet_u-l-q11ojkf0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 3 -->
+
+                    <div class="col s6 m3 "> <!--Picture 4-->
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-light">
+                                <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" class="modal-trigger" href="#feature">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" id="feat5">Black Line Poppies<a href="" class="right">₱12,400.00</a></span>
+                                <p>by Shirley Novak</p>
+                            </div>
+                            <div id="feature" class="modal modal-fixed-footer">
+                                <div class="modal-content grey lighten-3">
+                                    <div class="container center-align">
+                                        <img src="https://imgc.artprintimages.com/img/print/black-line-poppies-i-watercolor-neutral_u-l-q1b39ko0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" height="250px">
+                                    </div>
+                                    <h4 class="center-align"></h4>
+                                    <p class="subtitles"></p>
+                                    <p><p class="subtitles"></p><br>
+                                        <br><br>
+    
+                                        <br><br>
+                                        <p class="subtitles"></p>
+                                        <br><br>
+                                        
+                                        </p><br><br>
+                                    <div class="divider"></div>
+                                    <p class="subtitles">The Print</p><br>
+                                    <p>This art print displays sharp, vivid images with a high degree of color accuracy. A member of the versatile family of art prints, this high-quality reproduction represents the best of both worlds: quality and affordability. Art prints are created using a digital or offset lithography press.</p><br><br>
+                                    <div class="divider"></div>
+    
+                                    <p class="subtitles">Paper Type: Art Print</p><br>
+                                    <p class="subtitles">Finished Size: 16" x 12"</p><br><br>
+                                </div>
+                                <div class="modal-footer brown lighten-3">
+                                    <a href="" class="">₱12,400.00</a>
+                                    <a href="Cart.html" class="modal-close waves-effect waves-green btn-flat">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End picture 4 -->
+                    </div>
+                </div> <!--End of Recent Row 1-->
+            </div>
+        </div>
+
+        <!--Cart tab-->
+        <div class="col s12 l63" id="cart"><!-- Cart tabs -->
+                <div class="container2">
+                    <div class="slider">
+                        <ul class="slides">
+                            <li>
+                                <img src="Images/img1.jpg" alt="">
+                                <div class="caption left-align">
+                                    <h3 class="center black-text" style="font-size: 100px; font-weight: bold;">MY CART</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <br>
+                    <div class="divider black"></div><br>
+                    
+                    <div class="container">
+                        <div class="empty-container white">
+                            <div class="support-cookies center"><br><br>
+                                <h2 class="grey-text" style="margin-left: 30px;">Your cart is empty</h2><br><br>        
+                            </div>
+                        </div>
+                        <div class="div" style="height: 500px;"></div>
+                    </div>
+                </div>
+                <div class="divider black"></div>
+        </div>
+        
+        <!--Log In tab-->
+        <div class="col s12" id="login">
+            <div class="container"> <!--Start of container-->
+                <div class="row">
+                    <div class="col s12 m6 offset-m3">
+                        <div class="card login-wrapper">
+                            <div class="card-content">
+                                <div class="customer_login_form">
+                                    <form action="">
+                                        <h4 class="center">Log In</h4>
+                                        <div class="input-field">
+                                            <label for="customeremail">Email</label>
+                                            <input type="email" name="" id="customeremail">
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="customerpassword">Password</label>
+                                            <input type="password" name="" id="customerpassword">
+                                        </div>
+                                        <input type="submit" value="Sign In" class="log-in-signin btn btn-large"><br>
+                                        <a href="" class="forgotpassword">Forgot your password?</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--End of container-->
+        </div>
+
+        <!--Sign Up Tab-->
+        <div class="col s12" id="signup">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 offset-m3">
+                        <div class="card signup-wrapper">
+                            <div class="card-content">
+                                <div class="customer_signup_form">
+                                    <form action="">
+                                        <h4 class="center">Sign Up</h4>
+                                        <div class="input-field">
+                                            <label for="customerfirstname">First Name</label>
+                                            <input type="text" name="" id="firstname">
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="customerlastname">Last Name</label>
+                                            <input type="text" name="" id="lastname">
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="customeremail">Email</label>
+                                            <input type="email" name="" id="customeremail">
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="customerpassword">Password</label>
+                                            <input type="password" name="" id="customerpassword">
+                                        </div>
+                                        <input type="submit" value="Sign Up" class="signup btn btn-large"><br>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider black"></div>
+    
+    
+
+    <!-- Page Footer -->
+    <footer class="page-footer blue-grey lighten-4 z-depth-4">
+        <div class="container">
+            <div class="row center">
+                <div class="col s6 m3">
+                    <a href="">
+                        <img src="Images/logo.png" class="responsive-img" height="10" width="100">
+                    </a>
+                    <p class="grey-text">Get your aesthetic enjoyment</p>
+                </div>
+                <div class="col s6 m3">
+                    <h7 class="black-text">Social</h7><br>
+                    <a href=""><i class="fa-brands fa-facebook small"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram small"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter small"></i></a>
+                </div>
+                <div class="col s6 m3">
+                    <h7 class="black-text">Payment Options</h7><br>
+                    <a href=""><img src="https://icons-for-free.com/iconfiles/png/512/logo+visa-1325051840335599651.png" class="visa-logo"></a>
+                    <a href=""><img src="https://icons-for-free.com/iconfiles/png/512/flat+mastercard-1325051830933483937.png" class="mastercard-logo"></a>
+                    <a href=""><img src="https://icons-for-free.com/iconfiles/png/512/paypal-1330289848872691883.png" class="paypal-logo"></a><br>
+                    <a href=""><img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/357007275_666590348839092_377494530149276576_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeGutjJ5ZVWNdeQZtv59r8gZSxd87dQpI1JLF3zt1CkjUsubmYOjtUfnnQd4iuoiTtciNYpZenceEbk42KbFznW6&_nc_ohc=jmv3JKV4jbEAX9uZNVu&_nc_ht=scontent.fmnl16-1.fna&oh=00_AfBH6WNUGqlUE17NUbFHJOLa2Od9UrV-io0axNe81ghMuQ&oe=651F1648" class="gcash-logo"></a>
+                    <a href=""><img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/business/07/08/paymaya-logo.jpg" class="paymaya-logo"></a>
+                    <a href=""><img src="https://sc.filehippo.net/images/t_app-logo-l,f_auto,dpr_auto/p/b7f80105-315a-44f1-8e4c-dcde2d8efd7f/1472300146/coins-ph-wallet-logo" class="coins-logo"></a>
+                </div>
+                <div class="col s6 m3">
+                    <h7 class="black-text">Categories</h7><br>
+                    <a href="">Paintings</a><br>
+                    <a href="">Photography</a><br>
+                    <a href="">Sculpture</a><br>
+                    <a href="">Drawings</a><br>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        //tabs
+        $('.tabs').tabs();
+        //tabs
+        $('.tabs2').tabs();
+        // Sidenav in it
+        $('.sidenav').sidenav({
+            edge: 'left'
+        });
+        //Modal
+        $('.modal').modal({
+            opacity:0.8
+        });
+        //Dropdown
+        $('.dropdown-trigger').dropdown();
+        //Slider
+        $('.slider').slider({
+            indicators: false,
+            duration: 500,
+            interval: 3000
+        });
+        $('').show('#collectiontab')
+        });
+        
+    </script>
+</body>
+</html>

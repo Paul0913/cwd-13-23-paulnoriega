@@ -1,0 +1,34 @@
+.brand-logo{
+    font-weight: bold;
+}
+
+.tabs{
+    margin-left: 400px;
+}
+
+.tabs2{
+    margin-left: 200px;
+}
+
+.subtitles{
+    font-weight: bold;
+}
+
+#feat1,#feat2,#feat3,#feat4, #feat5, #feat6{
+    font-size: 15px;
+    font-weight: bold;
+    align-items: baseline;
+}
+.log-in-signin, .signup{
+    background-color: khaki;
+    margin-left: 130px;
+}
+
+.forgotpassword{
+    margin-left: 110px;
+}
+.gcash-logo, .visa-logo, 
+.mastercard-logo, .paypal-logo, 
+.paymaya-logo, .coins-logo{
+    height: 20px;
+}
